@@ -1,0 +1,34 @@
+name: StaffMode
+main: kr.kieran.InventoryGUI
+version: 1.0
+description: A simple StaffMode GUI plugin.
+commands:
+    fly:
+        usage: /<command>
+        aliases: [flight]
+        description: Enable flight mode for the player.
+    gamemode:
+        usage: /<command> [survival | creative | adventure | spectator]
+        aliases: [gm]
+        description: Set the player's game mode.
+    jump:
+        usage: /<command>
+        aliases: [jumpboost]
+        description: Enable/disable jump boost for the player.
+    speed:
+        usage: /<command>
+        aliases: [speedboost]
+        description: Enable/disable speed boost for the player.
+    vanish:
+        usage: /<command>
+        aliases: [v]
+        description: Enable/disable vanish for the player.
+    staffmode:
+        usage: /<command>
+        description: Open the staffmode GUI for the player.
+    god:
+        usage: /<command>
+        description: Enable/disable god mode for the player.
+    heal:
+        usage: /<command>
+        description: Heal the player by filling its health and hunger.
